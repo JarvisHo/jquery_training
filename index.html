@@ -1,15 +1,26 @@
 <html>
 <head>
-	<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 	
 	<input id="my" value="123">
+	<input id="out" value="3456">
 
 	<script type="text/javascript">
-		var temp = document.getElementById('my').value;
-		console.log(temp);
-		alert(temp);
+		// var my2 = document.getElementById('my');
+		// var qwe = document.getElementById('out');
+		// var temp = my.value;
+		// var temp2 = qwe.value;
+		// my2.style.color = "red";
+		// qwe.style.color = "blue";
+		// console.log(temp);
+		// http://www.ncku.edu.tw/~rcenter/book/html/JavaScript.html # Javascript 教案
+		
+		// alert(temp);
+		var str = $("#my").val();
+		console.log(str);
+		// http://www.w3school.com.cn/jquery/attributes_val.asp # Jquery 語法
 	</script>
 	
 </body>
